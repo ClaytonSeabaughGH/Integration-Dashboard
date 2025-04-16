@@ -22,3 +22,19 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Python virtual environment folder
+.venv/
+
+# Visual Studio Code settings and workspace folder - Ignore entire .vscode folder except settings.json
+.vscode/*
+!.vscode/settings.json
+
+# Compiled Python files
+__pycache__/
+
+# macOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints
